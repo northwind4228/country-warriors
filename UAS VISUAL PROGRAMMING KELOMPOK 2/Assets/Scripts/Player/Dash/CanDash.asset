@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CanDash
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Input","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"True","label":null,"summary":null,"hideLabel":false},{"key":"False","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":102.0202,"y":50.04047},"zoom":0.8,"elements":[{"defaultValues":{},"position":{"x":-227.0,"y":-99.0},"guid":"461836c2-5564-43a3-b44a-dee6bebed953","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":109.0,"y":-97.0},"guid":"287daca0-3cff-44d5-80c5-e9e6778f99e2","$version":"A","$type":"Unity.VisualScripting.If","$id":"14"},{"defaultValues":{},"position":{"x":-16.0,"y":199.0},"guid":"f995eafb-7bb4-4906-86cf-cffd0570dfc9","$version":"A","$type":"Unity.VisualScripting.And","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"CanDash","$type":"System.String"},"object":null},"position":{"x":-124.0,"y":14.0},"guid":"5e13401f-817d-4b96-97e3-31c62e4922fa","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Moving","$type":"System.String"},"object":null},"position":{"x":-272.0,"y":196.0},"guid":"934fc18f-0035-41c7-ba96-84b5b3869c24","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"defaultValues":{},"position":{"x":268.0,"y":-96.0},"guid":"4133e98a-58c7-4dd9-a877-4e0f3e3dd29f","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"22"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Input","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"b1dd5179-d48d-4c3b-8541-3d9d96b63497","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"22"},"destinationKey":"True","guid":"4dc30e49-68df-4260-a70a-cd8a35a9f4da","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"22"},"destinationKey":"False","guid":"c95bc795-5d48-4b51-903f-8eeb81ddf1f7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"condition","guid":"7da63361-e016-40a1-bf57-4577eb6ba9bf","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"b","guid":"796de9b5-a821-4ff7-9aac-6fffa70e3338","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-378.0,"yMin":150.0,"xMax":181.0,"yMax":333.0},"label":"Connect
+      To Add Condition \"While Moving Only Player Can Dash\"","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"dd0f9759-1fb9-4901-89b3-8e8ebd91772f","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
